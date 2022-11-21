@@ -17,6 +17,6 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "azure-resource-group" {
-  name     = "test-resource-group"
+  name     = "resource-group"
   location = "West Europe"
 }
